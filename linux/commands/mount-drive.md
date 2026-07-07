@@ -14,8 +14,8 @@ Accounts, IPs, tools, access, assumptions.
 3. mount the drive
 4. unmount the drives
 5. automount at boot
-5. get UUID
-5. edit /etc/fstab
+   1. get UUID
+   2. edit /etc/fstab
 
 ## Commands
 ```bash
