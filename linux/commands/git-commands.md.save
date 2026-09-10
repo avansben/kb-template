@@ -1,0 +1,43 @@
+cat > ~/kb/templates/note-template.md <<'EOF'
+# Title
+Git Commands
+
+## Purpose
+This gives instructions for using git 
+
+## Prereqs
+Accounts, IPs, tools, access, assumptions.
+
+## Steps
+1. init branch
+2. Backup
+
+## Commands
+```bash
+# Init setup
+cd ~/kb
+git init
+git branch -M main
+
+	# Local Commits
+cd ~/kb
+git add .
+git commit -m "Add initial runbooks"
+
+# Setup and push
+git remote add origin git@github.com:YOURUSER/kb.git
+git push -u origin main
+```
+
+## Verification
+```bash
+# checks / show commands / curl tests / ping tests
+```
+
+## Rollback
+```bash
+# undo or recovery commands
+```
+
+## Notes
+Extra context, gotchas, links, ticket refs.
